@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta content="width=device-width, initial-scale=1" name="viewport">-->
+    <link rel="stylesheet" href="scss/bs-custom.scss">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
     <title>Bootstrappia</title>
 </head>
@@ -12,13 +13,15 @@
 <div class="container">
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="#">Examppeli</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html"><i class="ion-home"></i>Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html"><i class="ion-home"></i>Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="gallery.html"><i class="ion-image"></i>Gallery</a>
@@ -55,23 +58,33 @@
                 <div class="col">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit, neque id feugiat
                     volutpat, tellus orci iaculis orci, et commodo magna ipsum quis lectus. Aenean in nisi vulputate,
-                    imperdiet nunc sit amet, condimentum nulla. Fusce fringilla leo vel lectus pellentesque, eu sollicitudin
-                    ipsum feugiat. In ipsum felis, commodo at accumsan eu, pretium a quam. Cras convallis, est et faucibus
+                    imperdiet nunc sit amet, condimentum nulla. Fusce fringilla leo vel lectus pellentesque, eu
+                    sollicitudin
+                    ipsum feugiat. In ipsum felis, commodo at accumsan eu, pretium a quam. Cras convallis, est et
+                    faucibus
                     semper, odio sem placerat ante, sed pharetra eros libero id arcu. Sed molestie fringilla orci sed
-                    aliquam. Quisque vitae rutrum tellus. Aliquam pharetra risus arcu, non sollicitudin orci convallis at.
-                    Nam bibendum volutpat urna, eget ornare risus aliquet a. Phasellus vel neque sed magna sagittis pulvinar
-                    quis eu velit. Nulla cursus est non est laoreet, eget posuere arcu faucibus. Fusce accumsan sem iaculis,
+                    aliquam. Quisque vitae rutrum tellus. Aliquam pharetra risus arcu, non sollicitudin orci convallis
+                    at.
+                    Nam bibendum volutpat urna, eget ornare risus aliquet a. Phasellus vel neque sed magna sagittis
+                    pulvinar
+                    quis eu velit. Nulla cursus est non est laoreet, eget posuere arcu faucibus. Fusce accumsan sem
+                    iaculis,
                     cursus libero quis, fringilla justo.
                 </div>
                 <div class="col">
-                    Suspendisse mattis felis placerat viverra facilisis. Praesent rhoncus diam mauris, sit amet consequat
-                    tortor congue ut. Donec at purus vel nulla hendrerit iaculis ac vitae tortor. Donec a quam turpis. Fusce
-                    hendrerit nisi at ex porttitor, at ultricies enim molestie. Etiam vel quam eu massa mattis tincidunt.
+                    Suspendisse mattis felis placerat viverra facilisis. Praesent rhoncus diam mauris, sit amet
+                    consequat
+                    tortor congue ut. Donec at purus vel nulla hendrerit iaculis ac vitae tortor. Donec a quam turpis.
+                    Fusce
+                    hendrerit nisi at ex porttitor, at ultricies enim molestie. Etiam vel quam eu massa mattis
+                    tincidunt.
                     Cras purus sem, lacinia eu maximus id, lobortis luctus dolor. Cras consectetur, nunc nec viverra
                     vestibulum, purus ligula viverra neque, sit amet blandit magna mi in elit. Integer condimentum nibh
-                    diam, eget porttitor quam semper ut. Etiam ullamcorper lectus eget leo efficitur suscipit. Suspendisse
+                    diam, eget porttitor quam semper ut. Etiam ullamcorper lectus eget leo efficitur suscipit.
+                    Suspendisse
                     sem ante, bibendum et ligula vehicula, tincidunt tristique risus. Fusce hendrerit dictum purus eget
-                    dapibus. Vestibulum tincidunt laoreet lectus, eu fringilla libero blandit in. Maecenas at ullamcorper
+                    dapibus. Vestibulum tincidunt laoreet lectus, eu fringilla libero blandit in. Maecenas at
+                    ullamcorper
                     elit. Mauris nec lorem vel augue feugiat ornare.
                 </div>
             </div>
@@ -104,27 +117,35 @@
         </section>
         <aside class="col-sm-4">
             <div class="jumbotron">
-            <p>
-                Suspendisse mattis felis placerat viverra facilisis. Praesent rhoncus diam mauris, sit amet consequat
-                tortor congue ut. Donec at purus vel nulla hendrerit iaculis ac vitae tortor. Donec a quam turpis. Fusce
-                hendrerit nisi at ex porttitor, at ultricies enim molestie. Etiam vel quam eu massa mattis tincidunt.
-                Cras purus sem, lacinia eu maximus id, lobortis luctus dolor. Cras consectetur, nunc nec viverra
-                vestibulum, purus ligula viverra neque, sit amet blandit magna mi in elit. Integer condimentum nibh
-                diam, eget porttitor quam semper ut. Etiam ullamcorper lectus eget leo efficitur suscipit. Suspendisse
-                sem ante, bibendum et ligula vehicula, tincidunt tristique risus. Fusce hendrerit dictum purus eget
-                dapibus. Vestibulum tincidunt laoreet lectus, eu fringilla libero blandit in. Maecenas at ullamcorper
-                elit. Mauris nec lorem vel augue feugiat ornare.
-            </p>
-            <p>
-                Maecenas aliquam in est sed tincidunt. Nulla id libero facilisis, porttitor odio in, ornare ipsum.
-                Mauris efficitur ut libero tincidunt consectetur. Vestibulum et urna sed tortor tincidunt eleifend.
-                Vivamus nisl magna, porta nec tincidunt id, eleifend vel sapien. Maecenas tristique consequat pulvinar.
-                Integer aliquam ligula nunc, a finibus tortor posuere quis. Morbi ultricies sit amet arcu et maximus.
-                Quisque dignissim, lorem id porttitor sollicitudin, diam urna tempor leo, et dignissim enim orci sit
-                amet nibh. Maecenas suscipit tristique turpis ac venenatis. Maecenas euismod accumsan libero ac
-                ultrices. Donec nibh odio, hendrerit ut laoreet vel, fringilla et urna. Ut eget augue quis eros tempus
-                blandit et sit amet mi. Morbi vitae sodales orci. Integer eleifend risus at posuere ultricies.
-            </p>
+                <p>
+                    Suspendisse mattis felis placerat viverra facilisis. Praesent rhoncus diam mauris, sit amet
+                    consequat
+                    tortor congue ut. Donec at purus vel nulla hendrerit iaculis ac vitae tortor. Donec a quam turpis.
+                    Fusce
+                    hendrerit nisi at ex porttitor, at ultricies enim molestie. Etiam vel quam eu massa mattis
+                    tincidunt.
+                    Cras purus sem, lacinia eu maximus id, lobortis luctus dolor. Cras consectetur, nunc nec viverra
+                    vestibulum, purus ligula viverra neque, sit amet blandit magna mi in elit. Integer condimentum nibh
+                    diam, eget porttitor quam semper ut. Etiam ullamcorper lectus eget leo efficitur suscipit.
+                    Suspendisse
+                    sem ante, bibendum et ligula vehicula, tincidunt tristique risus. Fusce hendrerit dictum purus eget
+                    dapibus. Vestibulum tincidunt laoreet lectus, eu fringilla libero blandit in. Maecenas at
+                    ullamcorper
+                    elit. Mauris nec lorem vel augue feugiat ornare.
+                </p>
+                <p>
+                    Maecenas aliquam in est sed tincidunt. Nulla id libero facilisis, porttitor odio in, ornare ipsum.
+                    Mauris efficitur ut libero tincidunt consectetur. Vestibulum et urna sed tortor tincidunt eleifend.
+                    Vivamus nisl magna, porta nec tincidunt id, eleifend vel sapien. Maecenas tristique consequat
+                    pulvinar.
+                    Integer aliquam ligula nunc, a finibus tortor posuere quis. Morbi ultricies sit amet arcu et
+                    maximus.
+                    Quisque dignissim, lorem id porttitor sollicitudin, diam urna tempor leo, et dignissim enim orci sit
+                    amet nibh. Maecenas suscipit tristique turpis ac venenatis. Maecenas euismod accumsan libero ac
+                    ultrices. Donec nibh odio, hendrerit ut laoreet vel, fringilla et urna. Ut eget augue quis eros
+                    tempus
+                    blandit et sit amet mi. Morbi vitae sodales orci. Integer eleifend risus at posuere ultricies.
+                </p>
             </div>
         </aside>
     </main>
